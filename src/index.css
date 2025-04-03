@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* global styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+#root {
+  width: 550px;
+  height: 100%;
+}
+
+@theme {
+  --color-regal-mlue: #243c5a; 
+  --color-background: #f4d5ff;
+  --color-button : #d994f4;
+  --color-button-two: #a663cc;
+  --color-matte-black: #33272a;
+  --color-light-black : #594a4e;
+  --color-check: #80ed99;
+  --color-wrong: #ff686b;
+  --color-warning: #f4d06f;
+}
